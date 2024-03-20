@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "../app/components/navbar";
-import Footer from "../app/components/footer";
-import About from "../app/components/about";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer"
+import Habilities from "../components/habilities";
 
 export default function Home() {
   return (
@@ -11,8 +11,9 @@ export default function Home() {
         <div className="mb-auto">
           <Navbar />
           <div className="mt-9">
-            <About />
+            <Habilities />
           </div>
+        
         </div>
         <Footer />
       </div>
